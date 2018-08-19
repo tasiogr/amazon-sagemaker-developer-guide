@@ -39,7 +39,7 @@ Although some of the parameters are common between the Text Classification and W
 | learning\_rate |  Step size used for parameter updates\.  Valid values: Positive float Default value: 0\.05  | 
 | vector\_dim |  Dimension of embedding layer\. Valid values: Positive integer Default value: 100  | 
 | epochs |  The maximum number of complete passes through the training data\. Valid values: positive integer Default value: 5  | 
-| word\_ngrams |  Number of word n\-grams features to use\. Valid values: positive integer Default value: 2  | 
+| word\_ngrams |  Number of word n\-grams features to use\. Valid values: positive integer below or equal to 5 Default value: 2  | 
 | buckets |  Number of hash buckets to use for word n\-grams\. Valid values: positive integer Default value: 2000000  | 
 | early\_stopping |  Whether to stop training if validation accuracy doesn't improve after an `patience` number of epochs\. Valid values: \(Boolean\) `True` or `False` Default value: `False`  | 
 | min\_epochs |  Minimum number of epochs to train before early stopping logic is invoked\. Valid values: positive integer Default value: 5  | 
